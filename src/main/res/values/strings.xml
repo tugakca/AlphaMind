@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Engineering</string>
+    <string name="meditation_title">DATA PROCESS</string>
+    <string name="meditation_message">Your data is processing please wait</string>
+    <string name="mainTitle">ALPHA MIND</string>
+    <string name="mainMotto">TAKE A DEEP BREATH</string>
+
+    <string name="login_dialog_title">LOGGING IN</string>
+    <string name="save">SAVE</string>
+    <string name="update">UPDATE</string>
+    <string name="delete">DELETE</string>
+    <string name="task">TASK</string>
+    <string name="note">NOTE</string>
+    <string name="image">IMAGE</string>
+    <string name="sign_up">SIGNING UP</string>
+    <string name="forget_text">FORGET PASSWORD</string>
+    <string name="meditationName1">Breathing</string>
+    <string name="meditationName2">Mindless</string>
+    <string name="meditationName3">Visulization</string>
+    <string name="instructionTittle">Please Choose Your Meditation!</string>
+    <string name="firstProcess">  Please close your eyes and wait for 30 secs.We will calcute your baseline brain activity.</string>
+    <string name="enteranceTitle">A few notes for a Alpha Mind...</string>
+    <string name="enteranceSentence">Welcome to  Application!
+    Just relax and observe your mindfulness.We will help you to fell have more calmed with meditations.
+        First, process your current mind state and then choose a meditation.
+        Take into account instructions.Then start the journey!</string>
+
+
+    <string name="Meditation1">
+       Close your eyes , Please breath in a count of 2 and breath out in a count of 3.
+        Please continue for 30 secs.
+    </string>
+    <string name="Meditation2">
+        Close your eyes and try to relax. If thoughts will try to pull your attention away, notice them but do not get stuck on them. Please continue for 30 secs.
+    </string>
+
+    <string name="Meditation3">
+      Close your eyes ,Imagine yourself in a safe, soothing natural environment like
+        a sunny beach or wooded forest, where you can tune in to the sights,
+        sounds and smells of that special place. You are free to roam around
+        this space and see what arises in your mind.
+         Please continue for 30 secs.
+    </string>
+
+
+    <string name="login_dialog_message">Please Wait You Are Logging In </string>
+    <string name="forget_dialog_message">New Password Is Sent </string>
+    <string name="signup_dialog_message">Please Wait You Are Signing Up </string>
+</resources>

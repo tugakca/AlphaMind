@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appGray"
+   >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end">
+        <ImageView
+            android:id="@+id/guruOnMeditation"
+            android:padding="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:src="@drawable/iconfinder_meditation_guru_310318"
+            >
+        </ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_gravity="center"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        >
+
+        <TextView
+            android:background="@color/appOrange"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:id="@+id/MT1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/meditationName1"
+            android:fontFamily="@font/opensanssemibold"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:background="@color/appOrange"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:id="@+id/MT2"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/meditationName2"
+            android:fontFamily="@font/opensanssemibold"
+            android:textSize="16sp"/>
+        <TextView
+            android:background="@color/appOrange"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:id="@+id/MT3"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/meditationName3"
+            android:fontFamily="@font/opensanssemibold"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/circle"
+        android:gravity="center"
+        android:padding="32dp">
+
+        <TextView
+
+            android:id="@+id/instruction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/opensansregular"
+            android:gravity="center"
+            android:text="@string/instructionTittle"
+            android:textColor="#000"/>
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_marginTop="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+     >
+
+        <TextView
+            android:background="@color/appGreen"
+            android:padding="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="start"
+            android:id="@+id/meditationStartButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="START THE JOURNEY"
+            android:fontFamily="@font/opensanssemibold"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.FirstProcess"
+    android:orientation="vertical"
+    android:background="@color/appOrange"
+
+   >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+
+    >
+
+    <ImageView
+        android:layout_width="134dp"
+        android:layout_height="129dp"
+        android:src="@drawable/alphamind_img">
+
+
+    </ImageView>
+
+    <TextView
+        android:padding="32dp"
+        android:id="@+id/firstProcessInstTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/firstProcess"
+        android:textColor="#000">
+
+    </TextView>
+
+    <TextView
+        android:background="@color/appGreen"
+        android:padding="16dp"
+        android:layout_marginTop="16dp"
+        android:id="@+id/firstProcessStartTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="START"
+        android:textColor="#000">
+    </TextView>
+
+
+
+ </LinearLayout>
+
+</LinearLayout>

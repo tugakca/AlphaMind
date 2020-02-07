@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.mobisem.engineering">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:name=".MeditationApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="AlphaMind"
+        android:roundIcon="@drawable/alphamind_img"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:label">
+        <activity android:name=".Activities.FirebaseGraph"></activity>
+        <activity android:name=".Activities.ForgotPasswordActivity" />
+        <activity android:name=".Activities.DatabaseOperations" />
+        <activity android:name=".Activities.AdapterActivity" />
+        <activity android:name=".Activities.Graph" />
+        <activity android:name=".Activities.FirstProcess" />
+        <activity android:name=".Activities.MeditationActivity" />
+        <activity android:name=".Activities.EnteranceActivity" />
+        <activity android:name=".Activities.SignInActivity" />
+        <activity android:name=".Activities.SignUpActivity" />
+        <activity android:name=".Activities.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
